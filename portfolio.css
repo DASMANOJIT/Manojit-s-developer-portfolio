@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:rgb(5, 20, 60);
+    font-family: "Playfair Display", serif;
+    color:white;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content : space-around;
+    height: 50px;
+    background-color:rgb(7, 25, 79);
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a {
+    text-decoration:none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(155, 200, 239);
+    font-size: 1.2rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.firstsection> div{
+    width:40%;
+}
+.leftsection{
+    font-size:3rem;
+    
+}
+.leftsection .btn{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #3148da;
+    border: 2px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor:pointer;
+}
+.rightsection img{
+    
+    width: 100%;
+    margin: 40px;
+}
+.name{
+    color:rgb(142, 1, 244);
+}
+#element{
+    color:rgb(142, 1, 244);
+}
+main hr{
+    margin:30px 40px;
+    color:rgb(155, 200, 239);
+
+}
+.secondsection{
+    height: 40vw;
+    max-width: 80vw;
+    margin: auto;
+    color:grey;
+}
+.secondsection h1{
+    font-size: 2rem;
+    color:white;
+}
+.secondsection .box{
+    margin: 56px 0;
+     height: 2px;
+    background-color: rgb(183, 201, 239);
+    width: 80vw;
+    padding: 1px;
+    display:flex;
+}
+.secondsection .vertical{
+    background-color:rgb(183, 201, 239);
+    height: 90px;
+    width:1px;
+    margin: 0 100px;
+}
+.secondsection .vertical .image{
+    height: 50px;
+    top: -55px;
+    margin: 0 -23px;
+    position:relative;
+}
+.vertical-title{
+    position: relative;
+    top :40px;
+    width: 150px;
+    font-size:  12px;
+    
+   
+    
+}
+.vertical .desc{
+    width: 150px;
+    font-size: 10px;
+    position: relative;
+    top: 42px;
+}
+
+.vertical-title a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.vertical-title a:hover{
+
+color:rgb(155, 200, 239);
+    font-size: 1.02rem;
+}
+footer{
+    background-color:rgb(25, 32, 99);
+}
+.footer {
+display:flex;
+ justify-content: space-evenly;
+    padding : 23px 122px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer >div{
+    width: 223px;
+}
+footer .text{
+    text-align:center;
+    color:grey;
+    padding: 23px;
+}
